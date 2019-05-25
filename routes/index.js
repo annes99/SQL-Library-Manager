@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 // get / - Home route should redirect to the /books route.
 router.get('/', function(req, res, next) {
-  res.render('index');
+  res.redirect('/books');
 });
 
 module.exports = router;
