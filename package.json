@@ -9,9 +9,11 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "http-errors": "^1.6.3",
+    "morgan": "^1.9.1",
     "pug": "^2.0.3",
     "sequelize": "^5.8.6",
     "sequelize-cli": "^5.4.0",
-    "sqlite3": "^4.0.8"
+    "sqlite3": "^4.0.8",
+    "stringify": "^5.2.0"
   }
 }
