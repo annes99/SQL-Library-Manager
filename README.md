@@ -4,6 +4,11 @@
 
 ## Features
 
+* Uses Sequelize Model validation to ensure that the title and author properties will have values when the form is submitted
+* If title or author fields are empty, form will not submit and page shows friendly error message
+* If routing to a non-existent book id, project uses a global error handler to render a friendly error page
+* If navigating to a non-existent route like /error, the project renders a user friendly "Page Not Found" page
+
 ## Technologies
 
 * JavaScript
@@ -24,11 +29,17 @@
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
+## Demo
+
+Active demo: [SQL Library Manager](https://sql-library-p8.herokuapp.com)
+
 ## Screenshot
+
+![Example screenshot](public/images/screenshot.png)
 
 ## Status
 
-Project is: _IN PROGRESS_
+Project is: _COMPLETED_
 
 ## Inspiration
 
