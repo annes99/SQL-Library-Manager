@@ -83,7 +83,7 @@ input {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 14px;
   border-radius: 2px;
-  border-color: #E7E7E7;
+  border-color: 2px solid #E7E7E7;
   transition: 0.4s;
 }
 
