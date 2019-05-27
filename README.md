@@ -19,8 +19,6 @@
 * CSS
 * HTML
 
-## Demo
-
 ## To start server locally
 
 * Run `npm install`
